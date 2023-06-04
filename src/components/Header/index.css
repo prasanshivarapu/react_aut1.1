@@ -1,0 +1,60 @@
+/* Write your CSS code here */
+.img {
+  height: 40px;
+  padding-top: 10px;
+}
+
+.sou {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ccbp {
+  display: block;
+}
+.head {
+  display: none;
+}
+@media screen and (min-width: 756px) {
+  .head {
+    display: block;
+  }
+  .ccbp {
+    display: none;
+  }
+}
+.home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+.hm {
+  margin: 8px;
+}
+.button {
+  background-color: rgb(127, 127, 238);
+  border: solid;
+  border-color: blue;
+}
+.main {
+  height: 100vh;
+}
+.main3 {
+}
+.small {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
+.cont {
+  height: 50px;
+  width: 100%;
+  background-color: #e6f6ff;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.icon {
+  height: 45px;
+}
